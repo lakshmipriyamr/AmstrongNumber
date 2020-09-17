@@ -1,4 +1,5 @@
 #include <math.h>
+#include <stdio.h>
 #include "AmstrongNumber.h"
 
 int AmstrongNumber(int num) {

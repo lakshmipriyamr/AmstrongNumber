@@ -15,11 +15,11 @@ int AmstrongNumber(int num) {
       remainder = originalNum % 10;
 
       // store the sum of the power of individual digits in result
-      result += pow(remainder, n);
+      result =remainder;
    }
 
    // condition for Armstrong number
-   if (round(result) == num)
+   if (result == num)
       flag = 1;
    else
       flag = 0;
